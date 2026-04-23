@@ -1,95 +1,81 @@
-# my-first-project
-#  Smart Calculator in C
+# my-second-project
+# 🎓 Student Management System in C
 
-A simple **Smart Calculator** built using the C programming language.
-This project performs basic arithmetic operations with a user-friendly menu system.
+##  Description
+
+This is a simple **menu-driven C program** that manages student records using:
+
+* Structure
+* Functions
+* While loop
+* Switch case
+
+The program allows users to:
+
+* Add multiple student records
+* Display all student data
 
 ---
 
 ##  Features
 
-* ➕ Addition
-* ➖ Subtraction
-* ✖️ Multiplication
-* ➗ Division (with divide-by-zero handling)
-* 🔢 Power calculation
-* 🔁 Continuous loop until user exits
+* Store student name, roll number
+* Store marks of Physics, Chemistry, Maths
+* Dynamic number of students (user input)
+* Simple menu-based interface
 
 ---
 
 ##  Technologies Used
 
 * C Programming Language
-* GCC Compiler
-* Visual Studio Code
 
 ---
 
-##  Project Structure
+## ▶ How to Run
+
+1. Compile the program:
 
 ```
-my-first-project/
-│
-├── smart_calculator.c
-└── README.md
+gcc program.c
 ```
 
----
-
-## ▶ How to Run the Program
-
-1. Open terminal in project folder
-2. Compile the code:
+2. Run the program:
 
 ```
-gcc smart_calculator.c -o calc
-```
-
-3. Run the program:
-
-```
-./calc
+./a.out
 ```
 
 ---
 
-##  Sample Menu
+##  Menu Options
 
-```
-===== SMART CALCULATOR =====
-1. Add
-2. Subtract
-3. Multiply
-4. Divide
-5. Power
-6. Exit
-```
+1. Add Students
+2. Display Students
+3. Exit
 
 ---
 
-##  Error Handling
+##  Sample Output
 
-* Prevents division by zero
-* Handles invalid menu choices
+```
+===== MENU =====
+1. Add Students
+2. Display Students
+3. Exit
+```
 
 ---
 
 ##  Future Improvements
 
-* Add calculation history
-* Add square root & advanced functions
-* Improve UI design
-* Convert into GUI application
+* Add search by roll number
+* Calculate total and percentage
+* Add grade system
+* File handling (save data)
 
 ---
 
 ##  Author
 
-**Jakir Hossain**
-IT Student | Beginner Programmer
-
----
-
-##  Support
-
-If you like this project, give it a ⭐ on GitHub!
+Jakir Hossain
